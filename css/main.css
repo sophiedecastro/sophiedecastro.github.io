@@ -1,14 +1,15 @@
 
-p {
-    color: red;
-    background-color: white;
-}
-
 body {
-    color: red;
-    background-color: gray;
+    color: white;
+    background-color: #6495ED;
     width: 1000px; /* many units for width */
 }
+
+p {
+    color: black;
+    /*background-color: white; */
+}
+
 
 h1 {
     text-align: center;
@@ -49,8 +50,8 @@ a.menu {
 
 /* :hover is a pseudo-class */
 li:hover {
-    background-color: cyan;
-    color: red;
+    background-color: #0000FF;
+    color: #FF7F50;
 }
 
 /*
