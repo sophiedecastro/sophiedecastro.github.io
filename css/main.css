@@ -13,6 +13,12 @@ p {
 
 h1 {
     text-align: center;
+    color: #FF7F50;
+}
+
+h2 {
+    text-align: center;
+    color: white;
 }
 
 ol {
@@ -31,11 +37,11 @@ li {
 }
 
 span.webpage{
-    color: #89703e;
+    color: white;
 }
 
 div.pdivclass {
-    color: red;
+    color: green;
 }
 
 /* part after # is called the id */
