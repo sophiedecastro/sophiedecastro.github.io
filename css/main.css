@@ -45,8 +45,18 @@ div.pdivclass {
     color: #FF7F50;
 }
 
+
+div.myDiv {
+    border: 3px outset black;
+    background-color: blue;
+    text-align: center;
+    width: 45%;
+    margin: auto;
+  }
+
+
 div.shadowbox {
-   
+   margin: auto;
     width: 63em;
     border: 1px solid white;
     box-shadow: 8px 8px 5px #f7c481;
