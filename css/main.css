@@ -10,6 +10,9 @@ div.pdivclass {
     color: #FF7F50;
 }
 
+div.class {
+    background: black;
+}
 
 p {
     color: black;
@@ -63,6 +66,7 @@ div.shadowbox {
     padding: 8px 12px;
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
   }
+
 
 /*p
 { color: #f7c481;}
