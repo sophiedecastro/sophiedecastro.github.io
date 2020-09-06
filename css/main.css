@@ -1,13 +1,13 @@
 
 body {
     text-align: center;
-    color: white;
-    background-color: #6495ED;
+    color: black;
+    background-color: #ADD8E6;
     width: 1000px; /* many units for width */
 }
 
 div.pdivclass {
-    color: #FF7F50;
+    color: #FF4500;
 }
 
 div.class {
@@ -19,15 +19,38 @@ p {
     /*background-color: white; */
 }
 
+div.align {
+
+    text-align: left;
+}
 
 h1 {
     text-align: center;
-    color: #FF7F50;
+    color: #FF4500;
 }
 
 h2 {
     text-align: center;
     color: white;
+}
+
+div.myDiv {
+    color: black;
+    border: 2.5px outset #FF4500;
+    background-color: white;
+    text-align: center;
+    width: 37.5%;
+    margin: auto;
+  }
+
+h3 {
+    text-decoration: overline;
+    text-align: center;
+    color: white;
+}
+
+h4 { 
+    color: black;
 }
 
 ol {
@@ -45,32 +68,25 @@ li {
     padding: 10px;
 }
 
-span.webpage{
-    color: #FF7F50;
+  span.webpage{
+    color: #FF4500;
 }
-
-div.myDiv {
-    border: 3px outset black;
-    background-color: blue;
-    text-align: center;
-    width: 45%;
-    margin: auto;
-  }
-
 
 div.shadowbox {
    margin: auto;
     width: 63em;
     border: 1px solid white;
-    box-shadow: 8px 8px 5px #f7c481;
+    box-shadow: 8px 8px 5px #FF4500;
     padding: 8px 12px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    background-image: linear-gradient(180deg, #fff, #ddd 100%, #ccc);
   }
 
+  div.license {
 
-/*p
-{ color: #f7c481;}
-*/
+    background: #FF4500;
+  }
+
+/*/
 
 /* part after # is called the id */
 a#myid {
@@ -84,13 +100,12 @@ a.menu {
 
 /* :hover is a pseudo-class */
 li:hover {
-    background-color: #0000FF;
-    color: #FF7F50;
+    background-color: #FF4500;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: #ADD8E6;
     }
   }
 
