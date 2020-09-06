@@ -6,6 +6,11 @@ body {
     width: 1000px; /* many units for width */
 }
 
+div.pdivclass {
+    color: #FF7F50;
+}
+
+
 p {
     color: black;
     /*background-color: white; */
@@ -40,11 +45,6 @@ li {
 span.webpage{
     color: #FF7F50;
 }
-
-div.pdivclass {
-    color: #FF7F50;
-}
-
 
 div.myDiv {
     border: 3px outset black;
